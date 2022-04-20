@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js assignment</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <h1> My to-do list</h1>
+
+    <div id="new-reminder">
+        <label for="newDate">Pick a date:</label>
+        <input type="date" id="newDate">
+
+        <label for="newText">Write new reminder:</label>
+        <input type="text" id="newText">
+
+        <input type="button" value="Enter reminder" id="make-todo" onclick="enterNewReminder()">
+    </div>
+
+    <div id="list"></div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
